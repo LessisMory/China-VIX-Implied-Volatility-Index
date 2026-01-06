@@ -12,9 +12,7 @@ Although VIX-style indices are widely interpreted as measures of market volatili
 
 The model-free implied variance formula assigns weights to option prices according to the term:
 
-\[
-\frac{\Delta K}{K^2} Q(K)
-\]
+ΔK / K² · Q(K)
 
 Due to the inverse-square weighting structure, option prices with strike levels close to the forward index price receive disproportionately higher weights. As a result, the volatility index is dominated by near-the-money (ATM) options, while deep out-of-the-money options contribute relatively less to the overall variance measure.
 
